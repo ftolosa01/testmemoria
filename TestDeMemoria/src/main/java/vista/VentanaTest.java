@@ -1,5 +1,6 @@
 package vista;
 
+import java.awt.event.ActionEvent;
 import modelo.Respuestas;
 import modelo.Preguntas;
 import javax.swing.JButton;

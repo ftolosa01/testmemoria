@@ -1,5 +1,6 @@
 package vista;
 
+import java.awt.event.ActionEvent;
 import modelo.Usuario;
 import javax.swing.JButton;
 import javax.swing.JLabel;
