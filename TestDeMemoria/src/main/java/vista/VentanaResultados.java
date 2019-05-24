@@ -1,16 +1,12 @@
 package vista;
 
-import java.awt.event.ActionEvent;
-import modelo.AlmacenamientoDatos;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JFrame;
+import controlador.AlmacenamientoDato;
 
-public class VentanaResultados extends JFrame {
+public class VentanaResultados {
 	private double mostrarPorcentaje;
-	private AlmacenamientoDatos almacenarDatos;
-	private JButton menu;
 	private JLabel porcentaje;
+	private JButton menu;
+	private AlmacenamientoDato almacenarDatos;
 
 	public VentanaResultados() {
 		throw new UnsupportedOperationException();

@@ -1,6 +1,6 @@
 package modelo;
 
-public class Preguntas {
+public class Pregunta {
 	private String[] preguntas;
 	private String[] respuestasCorrectaPreguntas;
 }

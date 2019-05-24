@@ -1,15 +1,10 @@
 package vista;
 
-import java.awt.event.ActionEvent;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-
-public class VentanaMenu extends JFrame {
+public class VentanaMenu {
 	private JButton verResultados;
 	private JButton volverTest;
-	public JButton verObjetivos;
-	private VentanaResultados ventanaResultados;
-	private VentanaObjetivos ventanaObjetivos;
+	private JButton verObjetivos;
+	private VentanaObjetivos ventanaObjetos;
 	private VentanaTest ventanaTest;
 
 	public VentanaMenu() {

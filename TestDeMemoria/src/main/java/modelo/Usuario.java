@@ -1,9 +1,11 @@
 package modelo;
 
+import controlador.AlmacenamientoDato;
+
 public class Usuario {
 	private String nombre;
 	private String contrasenga;
-	private AlmacenamientoDatos recuperarUsuario;
+	private AlmacenamientoDato recuperarUsuario;
 
 	public Usuario agreagarUsuario(String nombre, String contrasenga) {
 		throw new UnsupportedOperationException();

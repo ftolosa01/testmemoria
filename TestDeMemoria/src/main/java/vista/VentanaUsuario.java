@@ -1,19 +1,14 @@
 package vista;
 
-import java.awt.event.ActionEvent;
 import modelo.Usuario;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.JFrame;
 
-public class VentanaUsuario extends JFrame {
-	private Usuario usuario;
+public class VentanaUsuario {
 	private JButton agregarUsuario;
+	private JTextField tfContrasena;
+	private JTextField tfUsuario;
 	private JLabel lbNombre;
-	private JLabel lbContrasenga;
-	private JTextField tfNombre;
-	private JTextField tfContrasenga;
+	private JLabel lbContrasena;
+	private Usuario usuario;
 	private VentanaObjetivos objetivos;
 
 	public VentanaUsuario() {

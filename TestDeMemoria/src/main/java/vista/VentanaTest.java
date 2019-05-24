@@ -1,19 +1,15 @@
 package vista;
 
-import java.awt.event.ActionEvent;
-import modelo.Respuestas;
-import modelo.Preguntas;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JFrame;
+import modelo.Respuesta;
+import modelo.Pregunta;
 
-public class VentanaTest extends JFrame {
+public class VentanaTest {
 	private VentanaMenu ventanaMenu;
-	private Respuestas respuestas;
-	private Preguntas preguntas;
-	private JButton siguiente;
 	private JLabel testUno;
-	private JLabel testDos;
+	private JLAbel testDos;
+	private JButton siguiente;
+	private Respuesta respuesta;
+	private Pregunta pregunta;
 
 	public VentanaTest() {
 		throw new UnsupportedOperationException();

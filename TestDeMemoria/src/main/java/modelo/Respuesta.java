@@ -1,6 +1,6 @@
 package modelo;
 
-public class Respuestas {
+public class Respuesta {
 	private String respuesta;
 
 	public void ingresarRespuesta() {

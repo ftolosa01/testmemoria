@@ -1,9 +1,6 @@
 package vista;
 
-import javax.swing.JLabel;
-import javax.swing.JFrame;
-
-public class VentanaObjetivos extends JFrame {
+public class VentanaObjetivos {
 	private JLabel objetivos;
 
 	public VentanaObjetivos() {
